@@ -44,3 +44,15 @@ def get_book_detail(title: str):
     except FileNotFoundError:
         return None
     return data_book
+
+
+def delete_book(title: str):
+    path = "./app/bd"
+    name_repository_book = unidecode(title).strip()
+    try:
+        for file in os.listdir(f"{path}/{name_repository_book}"):
+            os.remove(os.path.join(f"{path}/{name_repository_book}", file))
+        os.rmdir(f"{path}/{name_repository_book}")
+    except FileNotFoundError:
+        return "File Error"
+    return None
