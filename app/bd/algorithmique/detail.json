@@ -1,7 +1,7 @@
 {
   "title": "Algorithmique",
   "author": "Cormen - Leiserson - Rivest - Stein",
-  "image": "../images/mangolem.jpg",
+  "image": "../images/algorithmique.jpg",
   "isbn": "978-2-10-054526-1",
   "description": "Cet ouvrage s'est imposé comme une référence mondiale pour l'enseignement de l'algorithmique. Exhaustif et facile d'accès, c'est un outil de travail complet et indispensable pour les étudiants. Cette 3e édition est entièrement révisée et mise à jour, avec deux nouveaux chapitres. L'éventail des algorithmes étudiés va des plus classiques, comme les algorithmes de tri et les fonctions de hachage, aux plus récents, comme ceux de la cryptographie, permettant ainsi de passer progressivement des notions élémentaires aux thèmes les plus pointus. Les algorithmes sont rédigés en français et dans un pseudo-code proche des langages Pascal, C et Java. Ils sont analysés en profondeur et complétés par des preuves mathématiques. De nombreux exemples, figures, études de cas et exercices de difficulté graduée complètent les explications. Au total, ce sont les énoncés de 957 exercices et 158 problèmes qui sont proposés, dont certains sont nouveaux dans cette 3e édition. Les solutions de 80 d'entre eux sont accessibles en ligne sur le site www.dunod.com.",
   "edition": "DUNOD - 3 eme édition",
