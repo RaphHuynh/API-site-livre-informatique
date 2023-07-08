@@ -1,9 +1,19 @@
 from fastapi import FastAPI, Response
+from starlette.middleware.cors import CORSMiddleware
 
 from app.models import Book
 from app.lib.function import get_books, post_books, get_book_detail, delete_book
 
 app = FastAPI()
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/books")
